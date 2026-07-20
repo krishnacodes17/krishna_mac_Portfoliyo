@@ -11,11 +11,13 @@ body,
 }
 
 main {
-  height: 100%;
-  width: 100%;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
   background-image: url(./mac_Wallpaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 
 }
