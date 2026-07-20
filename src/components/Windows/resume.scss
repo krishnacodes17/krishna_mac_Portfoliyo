@@ -1,0 +1,12 @@
+.resume-window{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+
+    iframe{
+        min-width: 25rem;
+    min-height: 25rem;
+        width: 100%;
+        height: 100%;
+    }
+}
