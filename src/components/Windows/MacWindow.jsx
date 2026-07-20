@@ -6,7 +6,9 @@ import "./MacWindow.scss"
 function MacWindow({children}) {
   return (
     <Rnd
-      default={{ x: 120, y: 120 }}
+      default={{ 
+        
+        x: 120, y: 120 }}
       enableResizing={true}
       bounds="parent"
       style={{ zIndex: 5, cursor: 'move' }}
