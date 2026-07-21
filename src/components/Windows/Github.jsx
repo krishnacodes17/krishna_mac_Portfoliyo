@@ -4,6 +4,7 @@ import githubData from "../../assets/github.json"
 import "./github.scss"
 
 const GitCard = ({data})=>{
+    
     const {id ,image, title,description,tags,repoLink,demoLink} = data
 
     return <div className='card'>
@@ -34,9 +35,9 @@ const GitCard = ({data})=>{
 
 
 
-function Github() {
+function Github({windowName,setWindowState,windowState}) {
   return (
-    <MacWindow >
+    <MacWindow windowName={windowName}  setWindowState={setWindowState} windowState={windowState} >
         <div className='cards'>
             {githubData.map((project,index)=>{
                 return <GitCard key={index} data={project} />

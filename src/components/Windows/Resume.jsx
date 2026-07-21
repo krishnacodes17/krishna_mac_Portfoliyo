@@ -1,11 +1,11 @@
 import React from 'react'
 import MacWindow from './MacWindow'
 import  './resume.scss'
-function Resume() {
+function Resume({windowName,setWindowState,windowState}) {
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName}  setWindowState={setWindowState} windowState={windowState} >
       <div className="resume-window">
-        <iframe src="./resume.pdf" frameBorder="0"></iframe>
+        <iframe src="/resume.pdf" title="Resume" frameBorder="0"></iframe>
       </div>
     </MacWindow>
   )
