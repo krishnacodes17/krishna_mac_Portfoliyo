@@ -122,4 +122,4 @@ This portfolio is designed to feel like a mini operating system desktop. Each wi
 
 ## 🙌 Author
 
-Built with passion by Krishna Gupta.
+Built with passion by Krishna Gupta 👍.
